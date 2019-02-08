@@ -1,32 +1,92 @@
-.App {
-  text-align: center;
+@import "./style/mixins";
+@import "./style/variables";
+@import "./style/font";
+@import "./style/layout";
+
+@import "./components/Home";
+@import "./components/Education";
+@import "./components/Motivation";
+
+* {
+  transition: all 500ms ease-out;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+body {
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  font-family: "Space Mono", monospace, sans-serif;
+  font-weight: 200;
+  background: #374046;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul, ol {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  border-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.dp-icon-navigation-list-item  {
+  cursor: pointer;
+
+  &[aria-selected="false"]{
+    transform: scale(.6);
+    filter: blur(1px);
+    transition-delay: .25s;
+
+    &:hover {
+      transform: scale(1.2);
+      opacity: 0.6;
+      transition-delay: 0s;
+      filter: blur(0px);
+    }
+  }
+}
+
+.react-tabs__tab--selected {
+  transform: scale(1.2) !important;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// Navigation
+.dp-tab-navigation {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+
+  // Navigation
+  .dp-icon-navigation-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    min-width: 150px;
+    z-index: 2;
+
+    &-item {
+      margin-bottom: 25px;
+      color: #fff;
+      display: block;
+      font-size: 32px;
+      list-style: none;
+    }
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dp-tab-navigation {
+  display: flex;
 }

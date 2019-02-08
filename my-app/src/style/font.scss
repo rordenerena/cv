@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500');
+
+h1 {
+  color: $purple;
+  font-size: 59px;
+  font-weight: 200;
+
+  .dp-cursor{
+    color: $purple;
+  }
+}
+
+h2 {
+  color: $purple;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: $yellow;
+  margin: 5px 0;
+  font-weight: 200;
+  font-size: 35px;
+
+  .dp-cursor{
+    color: $yellow;
+  }
+}
+
+strong {
+  color: $green;
+  font-weight: 300;
+
+  span.dp-cursor{
+    color: $green;
+  }
+}
+
+em {
+  color: $orange;
+
+  .dp-cursor{
+    color: $orange;
+  }
+}
+
+a {
+  color: $orange;
+  font-weight: bold;
+  text-decoration: none;
+
+  .dp-cursor{
+    color: $orange;
+  }
+}
+
+
+p {
+  color: $white;
+  font-size: 15px;
+
+  .dp-cursor{
+    color: $white;
+  }
+}
+
+.dp-blockquote {
+  color: #7A99AD;
+  border-left: 1px solid #7A99AD;
+  margin: 10px 0 10px 40px;
+  font-style: italic;
+
+  &-item {
+    color: #f5f5f5;
+    font-size: 15px;
+
+    a{
+      color: #7A99AD;
+      text-decoration: underline;
+    }
+  }
+}
+
+blockquote,
+ul,
+ol {
+  border-left: 1px solid $grey;
+  margin: 10px 0 10px 20px;
+  padding: 0 0 0 20px;
+  color: $yellow;
+}
+
+.dp-comment {
+  color: $grey;
+}
+
+.dp-title {
+  color: $purple;
+  font-size: 2.2em;
+  margin-bottom: $dp-spacer-sm;
+}

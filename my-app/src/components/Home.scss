@@ -1,0 +1,21 @@
+@keyframes fadein {
+    0% { opacity:0 ; }
+    66% { opacity:0; }
+    80% { opacity: 0; }
+    100% { opacity:1; }
+}
+
+.dp-home {
+    display: flex;
+    font-family: "Space Mono", monospace, sans-serif;
+    flex-direction: column;
+
+    .dp-introduction {
+        margin-bottom: 60px;
+    }
+
+    .dp-contact {
+        animation: fadein 9s ease 0s normal forwards;
+        margin-bottom: 30px;
+    }
+}

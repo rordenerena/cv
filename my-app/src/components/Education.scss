@@ -1,0 +1,135 @@
+body {
+  background: linear-gradient(135deg, #000111 0%, #000000 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ci-editor-spacer {
+  margin-left: 25px;
+}
+
+.dp-education {
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  font-size: 15px;
+
+  span {
+    color: white;
+  }
+
+  // Technical skills
+  .dp-technical-skills {
+    margin-top: 65px;
+  }
+
+  ul
+  {
+    list-style-type:none;
+    margin-top:-10px;
+    max-width:370px;
+    padding:0;
+  }
+}
+
+.code {
+  position: relative;
+  width: 490px;
+  height: auto;
+  border-radius: 6px;
+  z-index: 5;
+  font-size: 15px;
+
+  .dp-editor-header {
+    display: grid;
+    grid-template-columns: 36px auto 36px;
+    align-items: center;
+
+    svg {
+      margin: 10px;
+      font-size: 15px;
+      color: #C5C8D4;
+    }
+    h1 {
+      font-family: Lato, sans-serif;
+      font-weight: 900;
+      font-size: 14px;
+      letter-spacing: 1.57px;
+      color: #C5C8D4;
+      margin: 0;
+    }
+  }
+
+  span {
+    font-family: "Space Mono", monospace,  sans-serif !important;
+  }
+
+  &-html {
+    margin-right: 40px;
+  }
+
+  .code-content {
+    margin: 0 10px 10px;
+    color: white;
+    .c-r { color: #A88038 }
+    .c-o { color: #DE7300 }
+    .c-y {
+      //color: #E1CA72;
+      color: #DE7300;
+    }
+    .c-j {color: $dark;}
+    .c-g { color: #74B087 }
+    .c-p { color: #9F8198 }
+    .c-b { color: #7A99AD }
+    .c-c { color: #666666 }
+
+    .dp-link {
+      color: #7A99AD;
+      font-weight: normal;
+      font-family: "Space Mono", monospace, sans-serif;
+      font-size: 14px;
+      text-decoration: underline;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  }
+
+  &-css {
+    .code-content code {
+      .line {
+
+
+
+        &-5 {
+          border-color: transparent;
+
+        }
+        &-2 {
+          margin-left: 2rem;
+        }
+        &-3, &-4, &-5 {
+          margin-left: 4rem;
+        }
+      }
+    }
+  }
+}
+
+.braclet-open:after {
+  content: "{";
+}
+
+.braclet-close:after {
+  content: "}";
+  color: #DE7300;
+}
+
+
+
+.dp-section-education {
+  border: 2px solid deeppink;
+  margin: 30px 15px;
+  display: flex;
+  display: flex;
+}
