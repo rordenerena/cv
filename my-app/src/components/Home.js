@@ -11,7 +11,7 @@ export default class Home extends Component {
                     cursorClassName="dp-cursor"
                 >
                     <div className="dp-introduction">
-                        <h3>Name: <strong>Julia Primus</strong>, <br/>
+                        <h3>Name: <strong>Julia</strong>, <br/>
                             Alter: <strong>30</strong> Jahre alt,
                             <Typing.Delay ms={750} />
                             <Typing.Backspace count={4}/>

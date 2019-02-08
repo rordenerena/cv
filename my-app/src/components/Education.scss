@@ -35,7 +35,7 @@ body {
 
 .code {
   position: relative;
-  width: 490px;
+  //width: 490px;
   height: auto;
   border-radius: 6px;
   z-index: 5;
@@ -82,7 +82,8 @@ body {
     .c-g { color: #74B087 }
     .c-p { color: #9F8198 }
     .c-b { color: #7A99AD }
-    .c-c { color: #666666 }
+    .c-c { color: #909090
+    }
 
     .dp-link {
       color: #7A99AD;
@@ -131,5 +132,20 @@ body {
   border: 2px solid deeppink;
   margin: 30px 15px;
   display: flex;
-  display: flex;
+
+  .dp-education-item {
+    margin-bottom: 30px;
+  }
+}
+
+.dp-code-spacer {
+  margin-left: 20px;
+}
+
+.dp-work-experience-job-description {
+  max-width: 590px;
+
+  &-list {
+    margin-left: 20px;
+  }
 }

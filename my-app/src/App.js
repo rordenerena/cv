@@ -28,7 +28,7 @@ class App extends Component {
                   </Tab>
                 </TabList>
                 <div>
-                  <TabPanel >
+                  <TabPanel className="dp-content">
                     <Home />
                   </TabPanel>
                   <TabPanel>
