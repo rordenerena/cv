@@ -1,7 +1,5 @@
 import React, {Component} from "react";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSocks, faMailBulk, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import EducationItem from "./EducationItem";
 
 export default class Education extends Component {

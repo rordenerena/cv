@@ -9,18 +9,47 @@
     //border: 2px solid;
     font-family: "Space Mono", monospace, sans-serif;
     margin: 0 auto;
-    min-height: 450px;
+    min-height: 360px;
 
     @media screen and (min-width: $screen-sm-min) {
         width: 1024px;
     }
 
     .dp-introduction {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $screen-sm-min) {
+            margin-bottom: 60px;
+        }
     }
 
     .dp-contact {
         animation: fadein 9s ease 0s normal forwards;
-        margin-bottom: 30px;
+        font-size: 30px;
+
+        ul {
+            display: flex;
+
+            li {
+                a {
+                    font-size: 30px;
+                    color: #fff;
+                    margin: 0 15px;
+
+                    &:first-child{
+                        margin-left: 0;
+                    }
+
+                    @media screen and (min-width: $screen-sm-min) {
+                        font-size: 45px;
+                        margin: 0 25px;
+                    }
+
+                    &:hover {
+                        color: $dp-purple;
+                    }
+                }
+            }
+        }
     }
 }

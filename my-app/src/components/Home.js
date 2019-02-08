@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import Typing from 'react-typing-animation';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAt, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
 
 export default class Home extends Component {
 
@@ -23,39 +25,34 @@ export default class Home extends Component {
                 </Typing>
 
                 <div className="dp-contact">
-                    <h4>Kontakt:</h4>
-                    <blockquote className="dp-blockquote">
-                        <ul>
-                            <li className="dp-blockquote-item">
-                                Email:
-                                <a href="mailto:juliaprimus.jp@gmail.com">
-                                    juliaprimus.jp[ääät]gmail.com
-                                </a>
-                            </li>
-                            <li className="dp-blockquote-item">
-                                Web:
-                                <a href="http://designprimus.de/">
-                                    http://designprimus.de/
-                                </a>
-                            </li>
-                            <li className="dp-blockquote-item">
-                                Xing:
-                                <a href="https://www.xing.com/profile/Julia_Primus">
-                                    https://www.xing.com/profile/Julia_Primus
-                                </a>
-                            </li>
-                            <li className="dp-blockquote-item">
-                                Github:
-                                <a href="https://github.com/JlaPrs">
-                                    Github: https://github.com/JlaPrs
-                                </a>
-                            </li>
-                        </ul>
-                    </blockquote>
-                </div>
+                    <ul>
+                        <li>
+                            <a href="mailto:juliaprimus.jp@gmail.com">
+                                <FontAwesomeIcon icon={faAt} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://designprimus.de/">
+                                <FontAwesomeIcon icon={faGlobeEurope} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.xing.com/profile/Julia_Primus">
+                                <FontAwesomeIcon icon={['fab', 'xing']} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/JlaPrs">
+                                <FontAwesomeIcon icon={['fab', 'github']} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/codingprimus/">
+                                <FontAwesomeIcon icon={['fab', 'codepen']} />
+                            </a>
+                        </li>
+                    </ul>
 
-                <div>
-                    {/*<CodeButton title="Lebenslauf" />*/}
                 </div>
             </div>
         );

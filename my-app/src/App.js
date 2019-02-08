@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHome, faKeyboard, faGraduationCap, faList } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Home from "./components/Home";
 import Education from "./components/Education";
 
 import './App.scss';
 import Work from "./components/Work";
+
+library.add(fab);
 
 class App extends Component {
   render() {
@@ -30,6 +34,7 @@ class App extends Component {
 
           <div className="dp-content">
             <TabPanel className="dp-home">
+              <FontAwesomeIcon icon={fab} />
               <Home />
             </TabPanel>
 

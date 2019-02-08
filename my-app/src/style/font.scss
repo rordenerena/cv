@@ -73,23 +73,6 @@ p {
   }
 }
 
-.dp-blockquote {
-  color: #7A99AD;
-  border-left: 1px solid #7A99AD;
-  margin: 10px 0 10px 40px;
-  font-style: italic;
-
-  &-item {
-    color: #f5f5f5;
-    font-size: 15px;
-
-    a{
-      color: #7A99AD;
-      text-decoration: underline;
-    }
-  }
-}
-
 blockquote,
 ul,
 ol {
