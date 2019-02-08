@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Education from "./components/Education";
 
 import './App.scss';
+import Work from "./components/Work";
 
 class App extends Component {
   render() {
@@ -32,10 +33,13 @@ class App extends Component {
                     <Home />
                   </TabPanel>
                   <TabPanel>
-                    <Education />
+                    <Education
+                        school="Schulische Ausbildung"
+                        technicalSkills="Technical Skills"
+                    />
                   </TabPanel>
                   <TabPanel>
-                    <h2>Any content 3</h2>
+                    <Work/>
                   </TabPanel>
                   <TabPanel>
                     <h2>Any content 4</h2>
