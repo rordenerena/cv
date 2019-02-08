@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Particles from 'react-particles-js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHome, faKeyboard, faGraduationCap, faList } from '@fortawesome/free-solid-svg-icons';
@@ -15,46 +16,96 @@ library.add(fab);
 class App extends Component {
   render() {
     return (
-        <Tabs className="dp-tab-navigation">
+        <div className="app">
+          <Particles
+              className="dp-particles"
+              width="80"
+              params={{
+                  "particles": {
+                      "number": {
+                          "value": 90,
+                          "density": {
+                              "enable": true,
+                              "value_area": 1500
+                          }
+                      },
+                      "line_linked": {
+                          "enable": true,
+                          "opacity": 0.25
+                      },
+                      "move": {
+                          "direction": "right",
+                          "speed": 0.05
+                      },
+                      "size": {
+                          "value": 2
+                      },
+                      "opacity": {
+                          "anim": {
+                              "enable": true,
+                              "speed": 2,
+                              "opacity_min": 0.65
+                          }
+                      }
+                  },
+                  "interactivity": {
+                      "events": {
+                          "onclick": {
+                              "enable": true,
+                              "mode": "push"
+                          }
+                      },
+                      "modes": {
+                          "push": {
+                              "particles_nb": 1
+                          }
+                      }
+                  },
+                  "retina_detect": true
+              }} />
 
-          <TabList className="dp-icon-navigation-list">
-            <Tab className="icon dp-icon-navigation-list-item">
-              <FontAwesomeIcon icon={faHome} />
-            </Tab>
-            <Tab className="icon dp-icon-navigation-list-item">
-              <FontAwesomeIcon icon={faGraduationCap} />
-            </Tab>
-            <Tab className="icon dp-icon-navigation-list-item">
-              <FontAwesomeIcon icon={faKeyboard} />
-            </Tab>
-            <Tab className="icon dp-icon-navigation-list-item">
-              <FontAwesomeIcon icon={faList} />
-            </Tab>
-          </TabList>
+          <Tabs className="dp-tab-navigation">
 
-          <div className="dp-content">
-            <TabPanel className="dp-home">
-              <FontAwesomeIcon icon={fab} />
-              <Home />
-            </TabPanel>
+            <TabList className="dp-icon-navigation-list">
+              <Tab className="icon dp-icon-navigation-list-item">
+                <FontAwesomeIcon icon={faHome} />
+              </Tab>
+              <Tab className="icon dp-icon-navigation-list-item">
+                <FontAwesomeIcon icon={faGraduationCap} />
+              </Tab>
+              <Tab className="icon dp-icon-navigation-list-item">
+                <FontAwesomeIcon icon={faKeyboard} />
+              </Tab>
+              <Tab className="icon dp-icon-navigation-list-item">
+                <FontAwesomeIcon icon={faList} />
+              </Tab>
+            </TabList>
 
-            <TabPanel>
-              <Education
-                  school="Schulische Ausbildung"
-                  technicalSkills="Technical Skills"
-              />
-            </TabPanel>
+            <div className="dp-content">
+              <TabPanel className="dp-home">
+                <FontAwesomeIcon icon={fab} />
+                <Home />
+              </TabPanel>
 
-            <TabPanel>
-              <Work/>
-            </TabPanel>
+              <TabPanel>
+                <Education
+                    school="Schulische Ausbildung"
+                    technicalSkills="Technical Skills"
+                />
+              </TabPanel>
 
-            <TabPanel>
-              <h2>Any content 4</h2>
-            </TabPanel>
-          </div>
+              <TabPanel>
+                <Work/>
+              </TabPanel>
 
-        </Tabs>
+              <TabPanel>
+                <h2>Any content 4</h2>
+              </TabPanel>
+            </div>
+
+          </Tabs>
+        </div>
+
     );
   }
 }

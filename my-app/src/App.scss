@@ -19,7 +19,7 @@ body {
   user-select: none;
   font-family: "Space Mono", monospace, sans-serif;
   font-weight: 200;
-  background: #374046;
+  background: #292e32;
 }
 
 ul, ol {
@@ -31,6 +31,17 @@ ul, ol {
 
 li {
   list-style: none;
+}
+
+.app {
+  position: relative;
+  overflow: hidden;
+}
+
+.dp-particles {
+  position: absolute;
+  height: 90vh;
+  opacity: .3;
 }
 
 .dp-icon-navigation-list-item  {
