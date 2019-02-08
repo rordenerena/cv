@@ -5,22 +5,21 @@ export default class Home extends Component {
 
     render() {
         return (
-            <div className="dp-content dp-home">
+            <div>
                 <Typing
                     speed={20}
                     cursorClassName="dp-cursor"
+                    className="dp-introduction"
                 >
-                    <div className="dp-introduction">
-                        <h3>Name: <strong>Julia</strong>, <br/>
-                            Alter: <strong>30</strong> Jahre alt,
-                            <Typing.Delay ms={750} />
-                            <Typing.Backspace count={4}/>
-                            jung,
-                        </h3>
-                        <h1>Frontend Entwicklerin</h1>
+                    <h3>Name: <strong>Julia</strong>, <br/>
+                        Alter: <strong>30</strong> Jahre alt,
                         <Typing.Delay ms={750} />
-                        <p>aus <strong>Bielefeld / Germany</strong></p>
-                    </div>
+                        <Typing.Backspace count={4}/>
+                        jung,
+                    </h3>
+                    <h1>Frontend Entwicklerin</h1>
+                    <Typing.Delay ms={750} />
+                    <p>aus <strong>Bielefeld / Germany</strong></p>
                 </Typing>
 
                 <div className="dp-contact">
@@ -54,11 +53,6 @@ export default class Home extends Component {
                         </ul>
                     </blockquote>
                 </div>
-
-                <Typing>
-                    <Typing.Delay ms={7300} speed={50} />
-                    <h6><em>January 02nd, 2019</em></h6>
-                </Typing>
 
                 <div>
                     {/*<CodeButton title="Lebenslauf" />*/}

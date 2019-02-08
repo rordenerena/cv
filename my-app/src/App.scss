@@ -61,21 +61,31 @@ li {
 // Navigation
 .dp-tab-navigation {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   width: 100vw;
   position: relative;
   color: #fff;
   overflow: hidden;
 
+  @media screen and (min-width: $screen-sm-min) {
+    flex-direction: row;
+  }
+
   // Navigation
   .dp-icon-navigation-list {
     align-items: center;
     display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    min-width: 150px;
+    justify-content: space-between;
+    padding: 20px 25px;
     z-index: 2;
+
+    @media screen and (min-width: $screen-sm-min) {
+      flex-direction: column;
+      height: 100%;
+      min-width: 150px;
+      justify-content: center;
+    }
 
     &-item {
       margin-bottom: 25px;

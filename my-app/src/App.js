@@ -11,47 +11,45 @@ import Work from "./components/Work";
 class App extends Component {
   render() {
     return (
-        <div>
-          <div className="dp-container">
-              <Tabs className="dp-tab-navigation">
-                <TabList className="dp-icon-navigation-list">
-                  <Tab className="icon dp-icon-navigation-list-item">
-                    <FontAwesomeIcon icon={faHome} />
-                  </Tab>
-                  <Tab className="icon dp-icon-navigation-list-item">
-                    <FontAwesomeIcon icon={faGraduationCap} />
-                  </Tab>
-                  <Tab className="icon dp-icon-navigation-list-item">
-                    <FontAwesomeIcon icon={faKeyboard} />
-                  </Tab>
-                  <Tab className="icon dp-icon-navigation-list-item">
-                    <FontAwesomeIcon icon={faList} />
-                  </Tab>
-                </TabList>
-                <div>
-                  <TabPanel className="dp-content">
-                    <Home />
-                  </TabPanel>
-                  <TabPanel>
-                    <Education
-                        school="Schulische Ausbildung"
-                        technicalSkills="Technical Skills"
-                    />
-                  </TabPanel>
-                  <TabPanel>
-                    <Work/>
-                  </TabPanel>
-                  <TabPanel>
-                    <h2>Any content 4</h2>
-                  </TabPanel>
-                </div>
-              </Tabs>
+        <Tabs className="dp-tab-navigation">
 
+          <TabList className="dp-icon-navigation-list">
+            <Tab className="icon dp-icon-navigation-list-item">
+              <FontAwesomeIcon icon={faHome} />
+            </Tab>
+            <Tab className="icon dp-icon-navigation-list-item">
+              <FontAwesomeIcon icon={faGraduationCap} />
+            </Tab>
+            <Tab className="icon dp-icon-navigation-list-item">
+              <FontAwesomeIcon icon={faKeyboard} />
+            </Tab>
+            <Tab className="icon dp-icon-navigation-list-item">
+              <FontAwesomeIcon icon={faList} />
+            </Tab>
+          </TabList>
+
+          <div className="dp-content">
+            <TabPanel className="dp-home">
+              <Home />
+            </TabPanel>
+
+            <TabPanel>
+              <Education
+                  school="Schulische Ausbildung"
+                  technicalSkills="Technical Skills"
+              />
+            </TabPanel>
+
+            <TabPanel>
+              <Work/>
+            </TabPanel>
+
+            <TabPanel>
+              <h2>Any content 4</h2>
+            </TabPanel>
           </div>
 
-
-        </div>
-
+        </Tabs>
     );
   }
 }

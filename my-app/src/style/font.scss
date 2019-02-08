@@ -3,8 +3,12 @@
 
 h1 {
   color: $purple;
-  font-size: 59px;
+  font-size: 29px;
   font-weight: 200;
+
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 59px;
+  }
 
   .dp-cursor{
     color: $purple;
@@ -21,7 +25,11 @@ h3 {
   color: $yellow;
   margin: 5px 0;
   font-weight: 200;
-  font-size: 35px;
+  font-size: 20px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 35px;
+  }
 
   .dp-cursor{
     color: $yellow;
