@@ -70,7 +70,7 @@ class App extends Component {
               <Tab className="icon dp-icon-navigation-list-item">
                 <FontAwesomeIcon icon={faHome} />
               </Tab>
-              <Tab className="icon dp-icon-navigation-list-item">
+              <Tab className="icon dp-icon-navigation-list-item dp-graduation">
                 <FontAwesomeIcon icon={faGraduationCap} />
               </Tab>
               <Tab className="icon dp-icon-navigation-list-item">

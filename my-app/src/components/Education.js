@@ -15,7 +15,7 @@ export default class Education extends Component {
         return (
             <div className="dp-section-education">
                 {/*schulisch*/}
-                <div>
+                <div className="dp-school">
                     <div className="dp-title"> {this.props.school}</div>
 
                     <div className="code code-css">

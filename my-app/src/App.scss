@@ -40,7 +40,7 @@ li {
 
 .dp-particles {
   position: absolute;
-  height: 90vh;
+  height: 98vh;
   opacity: .3;
 }
 
@@ -86,6 +86,7 @@ li {
   // Navigation
   .dp-icon-navigation-list {
     align-items: center;
+    background-color: #202020;
     display: flex;
     justify-content: space-between;
     padding: 20px 25px;
@@ -94,7 +95,7 @@ li {
     @media screen and (min-width: $screen-sm-min) {
       flex-direction: column;
       height: 100%;
-      min-width: 150px;
+      min-width: 50px;
       justify-content: center;
     }
 

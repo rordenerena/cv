@@ -70,19 +70,19 @@ body {
   }
 
   .code-content {
-    margin: 0 10px 10px;
+    margin: 0;
     color: white;
     .c-r { color: #A88038 }
     .c-o { color: #DE7300 }
-    .c-y {
-      //color: #E1CA72;
-      color: #DE7300;
-    }
-    .c-j {color: $dark;}
+    .c-y { color: #DE7300 }
+    .c-j { color: $dark }
     .c-g { color: #74B087 }
     .c-p { color: #9F8198 }
     .c-b { color: #7A99AD }
-    .c-c { color: #909090
+    .c-c { color: #909090 }
+
+    @media screen and (min-width: $screen-sm-min) {
+      margin: 0 10px 10px;
     }
 
     .dp-link {
@@ -126,15 +126,54 @@ body {
   color: #DE7300;
 }
 
+// Animations
+.fade-in-left {
+  animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
 
+/**
+ * ----------------------------------------
+ * animation fade-in-left
+ * ----------------------------------------
+ */
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+// Animations end
 
 .dp-section-education {
-  //border: 2px solid deeppink;
-  margin: 30px 15px;
   display: flex;
+  margin: 30px 0;
+  flex-direction: column;
+
+  @media screen and (min-width: $screen-sm-min) {
+    flex-direction: row;
+  }
 
   .dp-education-item {
     margin-bottom: 30px;
+  }
+
+  .dp-school {
+    animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: .5s;
+
+    @media screen and (min-width: $screen-sm-min) {
+      margin-right: 40px;
+    }
+  }
+
+  .dp-technical-skills {
+    animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 1s;
   }
 }
 
