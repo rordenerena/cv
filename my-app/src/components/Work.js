@@ -1,22 +1,33 @@
 import React, {Component} from "react";
 
+import Typing from 'react-typing-animation';
 import WorkItem from "./WorkItem";
 
 import './Work.scss'
 
 export default class Work extends Component {
-    static propTypes = {};
+    constructor(props) {
+        super(props);
+        this.props = {
+            title: '',
+        };
+    }
 
     render() {
         return (
-            <div>
+            <div className="dp-work">
                 {/*work infos*/}
-                <div className="dp-title">Berufliche Ausbildung</div>
+                <Typing
+                    speed={10}
+                    cursorClassName="dp-cursor"
+                >
+                    <div className="dp-title">{this.props.title}</div>
+                </Typing>
 
                 <div className="dp-work-experience">
-                    <div>
+                    <div className="dp-work-experience-list">
                         {/*YOU?*/}
-                        <div className="dp-work-experience-item code code-js">
+                        <div className="code code-js">
                             <div className="code-content">
                                 <code>
                                     <span className="c-y">const </span>
@@ -55,7 +66,7 @@ export default class Work extends Component {
                     </div>
 
 
-                    <div>
+                    <div className="dp-work-experience-list second-column">
                         {/*C|CON Ausbildung*/}
                         <WorkItem
                             duration="Aug 2011 - Dez 2013"

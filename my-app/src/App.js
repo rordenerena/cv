@@ -35,7 +35,7 @@ class App extends Component {
                       },
                       "move": {
                           "direction": "right",
-                          "speed": 0.05
+                          "speed": 0.20
                       },
                       "size": {
                           "value": 2
@@ -79,6 +79,9 @@ class App extends Component {
               <Tab className="icon dp-icon-navigation-list-item">
                 <FontAwesomeIcon icon={faList} />
               </Tab>
+                {/*<div className="dp-nerd-infos">
+                    Nerd Infos
+                </div>*/}
             </TabList>
 
             <div className="dp-content">
@@ -89,13 +92,13 @@ class App extends Component {
 
               <TabPanel>
                 <Education
-                    school="Schulische Ausbildung"
+                    school="Education"
                     technicalSkills="Technical Skills"
                 />
               </TabPanel>
 
               <TabPanel>
-                <Work/>
+                <Work title="work experience"/>
               </TabPanel>
 
               <TabPanel>
@@ -105,7 +108,6 @@ class App extends Component {
 
           </Tabs>
         </div>
-
     );
   }
 }

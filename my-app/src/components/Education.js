@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 
+import Typing from 'react-typing-animation';
 import EducationItem from "./EducationItem";
 
 export default class Education extends Component {
@@ -16,9 +17,14 @@ export default class Education extends Component {
             <div className="dp-section-education">
                 {/*schulisch*/}
                 <div className="dp-school">
-                    <div className="dp-title"> {this.props.school}</div>
+                    <Typing
+                        speed={10}
+                        cursorClassName="dp-cursor"
+                    >
+                        <div className="dp-title"> {this.props.school}</div>
+                    </Typing>
 
-                    <div className="code code-css">
+                    <div className="code code-css dp-work-experience-list">
                         <div className="code-content">
                             <code>
                                 <EducationItem
@@ -61,8 +67,15 @@ export default class Education extends Component {
 
                 {/*Technical Skills*/}
                 <div className="dp-technical-skills">
-                    <div className="dp-title">{this.props.technicalSkills}</div>
-                    <div className="code code-js">
+                    <Typing
+                        speed={10}
+                        cursorClassName="dp-cursor"
+                        startDelay={1500}
+                    >
+                        <div className="dp-title">{this.props.technicalSkills}</div>
+                    </Typing>
+
+                    <div className="code code-js dp-technical-skills-list">
                         <div className="code-content">
                             <code>
                                 <span className="c-y">const </span><span className="c-b">css3</span> = [<span className="c-g">“css”</span>, <span className="c-g">“sass/scss”</span>, <span className="c-g">“less”</span>];<br/>

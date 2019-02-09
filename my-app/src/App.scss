@@ -19,7 +19,7 @@ body {
   user-select: none;
   font-family: "Space Mono", monospace, sans-serif;
   font-weight: 200;
-  background: #292e32;
+  background: #232425;
 }
 
 ul, ol {
@@ -111,4 +111,9 @@ li {
 
 .dp-tab-navigation {
   display: flex;
+}
+
+.dp-nerd-infos{
+  position: absolute;
+  bottom: 20px;
 }
