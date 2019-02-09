@@ -9,6 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.7.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "gh-pages": "^2.0.1",
+    "github-username": "^4.1.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-particles-js": "^2.4.2",
@@ -19,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
