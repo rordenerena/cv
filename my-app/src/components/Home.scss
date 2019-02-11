@@ -23,34 +23,4 @@
             margin-bottom: 60px;
         }
     }
-
-    .dp-contact {
-        animation: fadein 9s ease 0s normal forwards;
-        font-size: 30px;
-
-        ul {
-            display: flex;
-
-            li {
-                a {
-                    font-size: 30px;
-                    color: #fff;
-                    margin: 0 15px;
-
-                    &:first-child{
-                        margin-left: 0;
-                    }
-
-                    @media screen and (min-width: $screen-sm-min) {
-                        font-size: 45px;
-                        margin: 0 25px;
-                    }
-
-                    &:hover {
-                        color: $purple;
-                    }
-                }
-            }
-        }
-    }
 }

@@ -1,5 +1,4 @@
 .dp-navigation-container {
-  //border: 5px solid deeppink;
   width: 150px;
   display: flex;
   flex-direction: column;
@@ -32,7 +31,7 @@
 }
 
 .dp-content {
-  padding: 0 25px;
+  padding: 20px 25px;
 
   @media screen and (min-width: $screen-sm-min) {
     display: flex;

@@ -7,7 +7,7 @@ export default class Education extends Component {
     constructor(props) {
         super(props);
         this.props = {
-            school: '',
+            schoolSkills: '',
             technicalSkills: ''
         };
     }
@@ -21,7 +21,7 @@ export default class Education extends Component {
                         speed={10}
                         cursorClassName="dp-cursor"
                     >
-                        <div className="dp-title"> {this.props.school}</div>
+                        <div className="dp-title"> {this.props.schoolSkills}</div>
                     </Typing>
 
                     <div className="code code-css dp-work-experience-list">

@@ -7,6 +7,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Home from "./components/Home";
 import Education from "./components/Education";
+import Contacts from "./components/Contacts";
 
 import './App.scss';
 import Work from "./components/Work";
@@ -85,25 +86,26 @@ class App extends Component {
             </TabList>
 
             <div className="dp-content">
-              <TabPanel className="dp-home">
-                <FontAwesomeIcon icon={fab} />
-                <Home />
-              </TabPanel>
+                <Contacts />
+                <TabPanel className="dp-home">
+                    <FontAwesomeIcon icon={fab} />
+                    <Home />
+                </TabPanel>
 
-              <TabPanel>
-                <Education
-                    school="Education"
-                    technicalSkills="Technical Skills"
-                />
-              </TabPanel>
+                <TabPanel>
+                    <Education
+                        schoolSkills="Education"
+                        technicalSkills="Technical Skills"
+                    />
+                </TabPanel>
 
-              <TabPanel>
-                <Work title="work experience"/>
-              </TabPanel>
+                <TabPanel>
+                    <Work title="work experience"/>
+                </TabPanel>
 
-              <TabPanel>
-                <h2>Any content 4</h2>
-              </TabPanel>
+                <TabPanel>
+                    <h2>Any content 4</h2>
+                </TabPanel>
             </div>
 
           </Tabs>
