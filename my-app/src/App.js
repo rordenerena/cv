@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
         <div className="app">
-          <Particles
+          {/*<Particles
               className="dp-particles"
               width="80"
               params={{
@@ -64,7 +64,7 @@ class App extends Component {
                       }
                   },
                   "retina_detect": true
-              }} />
+              }} />*/}
 
           <Tabs className="dp-tab-navigation">
 
