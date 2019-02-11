@@ -11,6 +11,7 @@ import Contacts from "./components/Contacts";
 
 import './App.scss';
 import Work from "./components/Work";
+import Projects from "./components/Projects";
 
 library.add(fab);
 
@@ -100,11 +101,11 @@ class App extends Component {
                 </TabPanel>
 
                 <TabPanel>
-                    <Work title="work experience"/>
+                    <Work title="work experience" />
                 </TabPanel>
 
                 <TabPanel>
-                    <h2>Any content 4</h2>
+                    <Projects title="projects" />
                 </TabPanel>
             </div>
 

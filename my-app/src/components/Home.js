@@ -1,8 +1,5 @@
 import React, {Component} from "react";
 import Typing from 'react-typing-animation';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAt, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
-import Contact from './Contacts';
 
 export default class Home extends Component {
     constructor(props) {
