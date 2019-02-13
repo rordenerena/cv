@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 
 import Typing from 'react-typing-animation';
+import ProjectList from "./ProjectList";
 
 export default class Projects extends Component {
     constructor(props) {
@@ -11,8 +12,9 @@ export default class Projects extends Component {
     }
 
     render() {
+
         return (
-            <div className="dp-work">
+            <div>
                 {/*work infos*/}
                 <Typing
                     speed={10}
@@ -21,18 +23,8 @@ export default class Projects extends Component {
                     <div className="dp-title">{this.props.title}</div>
                 </Typing>
 
-                <div className="dp-work-experience">
-                    <div className="dp-work-experience-list">
-                        {/* Content here */}
-                        coming soon
-                    </div>
+               <ProjectList />
 
-
-                    <div className="dp-work-experience-list second-column">
-                        {/* content here */}
-                    </div>
-
-                </div>
             </div>
         );
     }

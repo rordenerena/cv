@@ -16,12 +16,16 @@ import Projects from "./components/Projects";
 library.add(fab);
 
 class App extends Component {
+    componentDidMount(){
+        document.title = "CV - Julia Primus"
+    }
+
   render() {
     return (
         <div className="app">
           {/*<Particles
               className="dp-particles"
-              width="80"
+              width="30"
               params={{
                   "particles": {
                       "number": {
@@ -65,7 +69,6 @@ class App extends Component {
                   },
                   "retina_detect": true
               }} />*/}
-
           <Tabs className="dp-tab-navigation">
 
             <TabList className="dp-icon-navigation-list">
@@ -105,7 +108,7 @@ class App extends Component {
                 </TabPanel>
 
                 <TabPanel>
-                    <Projects title="projects" />
+                    <Projects title="Projekte" />
                 </TabPanel>
             </div>
 

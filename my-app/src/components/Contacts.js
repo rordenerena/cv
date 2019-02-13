@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import Typing from 'react-typing-animation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAt, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
 

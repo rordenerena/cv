@@ -1,0 +1,34 @@
+.dp-projects {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1250px;
+
+  .dp-project-img {
+    margin-bottom: 20px;
+  }
+}
+
+.dp-projects-list-item {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  margin-right: 35px;
+  animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation-delay: 1s;
+
+  &-text {
+    display: flex;
+  }
+
+  &-icon {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 15px;
+  }
+
+  &-link {
+    cursor: pointer;
+  }
+}
