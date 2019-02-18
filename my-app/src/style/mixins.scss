@@ -36,3 +36,11 @@
     }
   }
 }
+
+@mixin transition {
+  @for $i from 1 through 4 {
+    &:nth-child(#{$i}) {
+      animation-delay: #{$i * .5}s;
+    }
+  }
+}

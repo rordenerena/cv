@@ -1,3 +1,10 @@
+.dp-projects-page {
+//ToDo: mit dp-work global einreichen
+  .dp-cursor {
+    color: $purple;
+  }
+}
+
 .dp-projects {
   display: flex;
   flex-wrap: wrap;
@@ -9,21 +16,21 @@
 }
 
 .dp-projects-list-item {
+  @include transition;
+  animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   border-bottom: 1px solid #fff;
   display: flex;
   flex-direction: column;
-  padding: 20px 0;
   margin-right: 35px;
-  animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  animation-delay: 1s;
+  padding: 20px 0;
 
   &-text {
     display: flex;
   }
 
   &-icon {
-    display: flex;
     align-items: center;
+    display: flex;
     font-size: 30px;
     margin-right: 15px;
   }

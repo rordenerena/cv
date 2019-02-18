@@ -28,12 +28,12 @@ body {
 ul, ol {
   margin: 0;
   padding: 0;
-  z-index: 1;
   border-left: 0;
-}
+  z-index: 1;
 
-li {
-  list-style: none;
+  li {
+    list-style: none;
+  }
 }
 
 .app {
@@ -42,9 +42,9 @@ li {
 }
 
 .dp-particles {
-  position: absolute;
   height: 98vh;
   opacity: .3;
+  position: absolute;
 }
 
 .dp-icon-navigation-list-item  {
@@ -55,15 +55,15 @@ li {
     transition-delay: .25s;
 
     @media screen and (min-width: $screen-sm-min) {
-      transform: scale(.6);
       filter: blur(1px);
+      transform: scale(.6);
     }
 
     &:hover {
-      transform: scale(1.2);
-      opacity: 0.6;
-      transition-delay: 0s;
       filter: blur(0px);
+      transform: scale(1.2);
+      transition-delay: 0s;
+      opacity: 0.6;
     }
   }
 }
@@ -78,20 +78,18 @@ li {
 
 // Navigation
 .dp-tab-navigation {
+  color: #fff;
   display: flex;
-  flex-direction: column;
   height: 100vh;
+  flex-direction: column;
   //width: 100vw;
   position: relative;
-  color: #fff;
   //overflow: hidden;
 
   @media screen and (min-width: $screen-sm-min) {
     flex-direction: row;
     overflow-x: hidden;
   }
-
-  // Navigation
 
   .dp-icon-navigation-list {
     align-items: center;

@@ -16,7 +16,7 @@ export default class ProjectList extends Component {
                     platform: 'github',
                     text: {
                         title: 'Glitch clock',
-                        shortDescription: 'Just a fork, not my project / test'
+                        shortDescription: 'Just a fork, not my project'
                     }
                 },
                 {
@@ -25,6 +25,17 @@ export default class ProjectList extends Component {
                     title:'Titel',
                     link: 'https://github.com/JlaPrs',
                     platform: '',
+                    text: {
+                        title: 'Welcome on Page 1',
+                        shortDescription: 'Just one of these pages'
+                    }
+                },
+                {
+                    id: '3',
+                    img: 'http://placekitten.com/300/200',
+                    title:'Titel',
+                    link: 'https://github.com/JlaPrs',
+                    platform: 'codepen',
                     text: {
                         title: 'Welcome on Page 1',
                         shortDescription: 'Just one of these pages'
@@ -51,6 +62,7 @@ export default class ProjectList extends Component {
             <div className="dp-projects">
                 {this.state.list.map(item => (
                     <div key={item.id} className={"dp-projects-list-item"} >
+
                         <picture className="dp-project-img">
                             <img src={item.img} alt={item.title} />
                         </picture>
@@ -65,7 +77,6 @@ export default class ProjectList extends Component {
                                 <p>{item.text.shortDescription}</p>
                             </div>
                         </div>
-
 
                     </div>
                 ))}

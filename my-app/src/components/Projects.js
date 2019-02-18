@@ -12,10 +12,8 @@ export default class Projects extends Component {
     }
 
     render() {
-
         return (
-            <div>
-                {/*work infos*/}
+            <div className="dp-projects-page">
                 <Typing
                     speed={10}
                     cursorClassName="dp-cursor"
