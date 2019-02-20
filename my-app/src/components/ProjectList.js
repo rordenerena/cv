@@ -1,6 +1,5 @@
-import React, {Component, PropTypes} from "react";
+import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAt, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
 
 export default class ProjectList extends Component {
     constructor(props) {
@@ -10,18 +9,18 @@ export default class ProjectList extends Component {
             list: [
                 {
                     id: '1',
-                    img: 'http://placekitten.com/300/200',
-                    title:'Titel',
-                    link: 'https://codepen.io/codingprimus/pen/YBjgex?page=3',
+                    img: 'https://github.com/JlaPrs/glitch-text-effect/raw/master/glitch-text/src/img/Glitch-Effect.jpg',
+                    title:'Typing with Glitch Effect',
+                    link: 'https://github.com/JlaPrs/glitch-text-effect',
                     platform: 'github',
                     text: {
-                        title: 'Glitch clock',
-                        shortDescription: 'Just a fork, not my project'
+                        title: 'Glitch Effect',
+                        shortDescription: 'Typing with a fancy Glitch Effect'
                     }
                 },
                 {
                     id: '2',
-                    img: 'http://placekitten.com/300/200',
+                    img: 'http://placekitten.com/300/140',
                     title:'Titel',
                     link: 'https://github.com/JlaPrs',
                     platform: '',
@@ -32,7 +31,7 @@ export default class ProjectList extends Component {
                 },
                 {
                     id: '3',
-                    img: 'http://placekitten.com/300/200',
+                    img: 'http://placekitten.com/300/140',
                     title:'Titel',
                     link: 'https://github.com/JlaPrs',
                     platform: 'codepen',
@@ -43,7 +42,7 @@ export default class ProjectList extends Component {
                 },
                 {
                     id: '3',
-                    img: 'http://placekitten.com/300/200',
+                    img: 'http://placekitten.com/300/140',
                     title:'Titel',
                     link: 'https://github.com/JlaPrs',
                     platform: 'codepen',

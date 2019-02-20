@@ -23,6 +23,13 @@
   flex-direction: column;
   margin-right: 35px;
   padding: 20px 0;
+  width: 350px;
+  min-height: 200px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
   &-text {
     display: flex;
