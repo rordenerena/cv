@@ -35,7 +35,7 @@ export default class Home extends Component {
                         </a>
                     </li>
                     <li>
-                        <a href="https://codepen.io/codingprimus/" target={this.state.target}>
+                        <a href="https://codepen.io/jlaprs/" target={this.state.target}>
                             <FontAwesomeIcon icon={['fab', 'codepen']} />
                         </a>
                     </li>
