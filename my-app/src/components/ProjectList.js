@@ -32,12 +32,12 @@ export default class ProjectList extends Component {
                 {
                     id: '3',
                     img: 'http://placekitten.com/300/140',
-                    title:'Titel',
-                    link: 'https://github.com/JlaPrs',
+                    title:'React counter Basics',
+                    link: 'https://codepen.io/jlaprs/pen/eXBKrV',
                     platform: 'codepen',
                     text: {
-                        title: 'Welcome on Page 1',
-                        shortDescription: 'Just one of these pages'
+                        title: 'ReAct Counter',
+                        shortDescription: 'ReAct basics - counter with reset button'
                     }
                 },
                 {
