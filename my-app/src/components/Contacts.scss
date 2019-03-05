@@ -5,14 +5,14 @@
 .dp-contact {
   position: absolute;
   bottom: 25px;
-  right: 0;
+  //right: 0;
   //animation: fadein 9s ease 0s normal forwards;
   display: flex;
   flex-direction: row;
 
-  @media screen and (min-width: $screen-sm-min) {
-    top: 25px;
-  }
+  //@media screen and (min-width: $screen-sm-min) {
+  //  top: 25px;
+  //}
 
   ul {
     li {

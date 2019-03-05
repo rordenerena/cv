@@ -97,10 +97,10 @@ ul, ol {
     display: flex;
     justify-content: space-around;
     padding: 20px 25px;
-    z-index: 2;
     position: fixed;
     width: 100%;
     min-height: 40px;
+    z-index: 7;
 
     @media screen and (min-width: $screen-sm-min) {
       flex-direction: column;

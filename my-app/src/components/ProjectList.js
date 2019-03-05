@@ -21,12 +21,12 @@ export default class ProjectList extends Component {
                 {
                     id: '2',
                     img: 'http://placekitten.com/300/140',
-                    title:'Titel',
-                    link: 'https://github.com/JlaPrs',
-                    platform: '',
+                    title:'Hover effekt on arrow button',
+                    link: 'https://codepen.io/jlaprs/pen/bZBWWp',
+                    platform: 'codepen',
                     text: {
-                        title: 'Welcome on Page 1',
-                        shortDescription: 'Just one of these pages'
+                        title: 'Hover effect',
+                        shortDescription: 'SCSS hover on Arrow Button / ONLY CSS'
                     }
                 },
                 {
@@ -62,20 +62,23 @@ export default class ProjectList extends Component {
                 {this.state.list.map(item => (
                     <div key={item.id} className={"dp-projects-list-item"} >
 
-                        <picture className="dp-project-img">
-                            <img src={item.img} alt={item.title} />
-                        </picture>
+                        <a href={item.link} target={this.state.target} className="dp-projects-list-item-link">
+                            <picture className="dp-project-img">
+                                <img src={item.img} alt={item.title} />
+                            </picture>
 
-                        <div className="dp-projects-list-item-text">
-                            <div className="dp-projects-list-item-icon">
-                                {item.platform  === 'github' ? <FontAwesomeIcon icon={['fab', 'github']}/> : <FontAwesomeIcon icon={['fab', `${item.platform}`]}/>}
-                            </div>
+                            <div className="dp-projects-list-item-text">
+                                <div className="dp-projects-list-item-icon">
+                                    {item.platform  === 'github' ? <FontAwesomeIcon icon={['fab', 'github']}/> : <FontAwesomeIcon icon={['fab', `${item.platform}`]}/>}
+                                </div>
 
-                            <div>
-                                <a href={item.link} target={this.state.target} className="dp-projects-list-item-link">{item.text.title}</a>
-                                <p>{item.text.shortDescription}</p>
+                                <div>
+                                    <a href={item.link} target={this.state.target} className="dp-projects-list-item-link">{item.text.title}</a>
+                                    <p>{item.text.shortDescription}</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
+
 
                     </div>
                 ))}
