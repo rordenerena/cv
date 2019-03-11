@@ -9,7 +9,6 @@ export default class ProjectList extends Component {
             list: [
                 {
                     id: '1',
-                    img: 'https://github.com/JlaPrs/glitch-text-effect/raw/master/glitch-text/src/img/Glitch-Effect.jpg',
                     title:'Typing with Glitch Effect',
                     link: 'https://github.com/JlaPrs/glitch-text-effect',
                     platform: 'github',
@@ -20,7 +19,6 @@ export default class ProjectList extends Component {
                 },
                 {
                     id: '2',
-                    img: 'http://placekitten.com/300/140',
                     title:'Hover effekt on arrow button',
                     link: 'https://codepen.io/jlaprs/pen/bZBWWp',
                     platform: 'codepen',
@@ -31,7 +29,6 @@ export default class ProjectList extends Component {
                 },
                 {
                     id: '3',
-                    img: 'http://placekitten.com/300/140',
                     title:'React counter Basics',
                     link: 'https://codepen.io/jlaprs/pen/eXBKrV',
                     platform: 'codepen',
@@ -42,13 +39,12 @@ export default class ProjectList extends Component {
                 },
                 {
                     id: '3',
-                    img: 'http://placekitten.com/300/140',
                     title:'Titel',
-                    link: 'https://github.com/JlaPrs',
-                    platform: 'codepen',
+                    link: 'https://github.com/JlaPrs/draggable-ToDo-react-app',
+                    platform: 'github',
                     text: {
-                        title: 'Welcome on Page 1',
-                        shortDescription: 'Just one of these pages'
+                        title: 'ToDo list',
+                        shortDescription: 'Simple react app with an input  / shopping list'
                     }
                 },
             ]
@@ -63,10 +59,6 @@ export default class ProjectList extends Component {
                     <div key={item.id} className={"dp-projects-list-item"} >
 
                         <a href={item.link} target={this.state.target} className="dp-projects-list-item-link">
-                            <picture className="dp-project-img">
-                                <img src={item.img} alt={item.title} />
-                            </picture>
-
                             <div className="dp-projects-list-item-text">
                                 <div className="dp-projects-list-item-icon">
                                     {item.platform  === 'github' ? <FontAwesomeIcon icon={['fab', 'github']}/> : <FontAwesomeIcon icon={['fab', `${item.platform}`]}/>}

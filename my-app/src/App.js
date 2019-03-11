@@ -23,52 +23,7 @@ class App extends Component {
   render() {
     return (
         <div className="app">
-          {/*<Particles
-              className="dp-particles"
-              width="30"
-              params={{
-                  "particles": {
-                      "number": {
-                          "value": 90,
-                          "density": {
-                              "enable": true,
-                              "value_area": 1500
-                          }
-                      },
-                      "line_linked": {
-                          "enable": true,
-                          "opacity": 0.25
-                      },
-                      "move": {
-                          "direction": "right",
-                          "speed": 0.20
-                      },
-                      "size": {
-                          "value": 2
-                      },
-                      "opacity": {
-                          "anim": {
-                              "enable": true,
-                              "speed": 2,
-                              "opacity_min": 0.65
-                          }
-                      }
-                  },
-                  "interactivity": {
-                      "events": {
-                          "onclick": {
-                              "enable": true,
-                              "mode": "push"
-                          }
-                      },
-                      "modes": {
-                          "push": {
-                              "particles_nb": 1
-                          }
-                      }
-                  },
-                  "retina_detect": true
-              }} />*/}
+
           <Tabs className="dp-tab-navigation">
 
             <TabList className="dp-icon-navigation-list">
@@ -89,7 +44,54 @@ class App extends Component {
                 </div>*/}
             </TabList>
 
-            <div className="dp-content">
+              {/*<Particles*/}
+                  {/*className="dp-particles"*/}
+                  {/*width="100"*/}
+                  {/*params={{*/}
+                      {/*"particles": {*/}
+                          {/*"number": {*/}
+                              {/*"value": 90,*/}
+                              {/*"density": {*/}
+                                  {/*"enable": true,*/}
+                                  {/*"value_area": 1500*/}
+                              {/*}*/}
+                          {/*},*/}
+                          {/*"line_linked": {*/}
+                              {/*"enable": true,*/}
+                              {/*"opacity": 0.25*/}
+                          {/*},*/}
+                          {/*"move": {*/}
+                              {/*"direction": "right",*/}
+                              {/*"speed": 0.20*/}
+                          {/*},*/}
+                          {/*"size": {*/}
+                              {/*"value": 2*/}
+                          {/*},*/}
+                          {/*"opacity": {*/}
+                              {/*"anim": {*/}
+                                  {/*"enable": true,*/}
+                                  {/*"speed": 2,*/}
+                                  {/*"opacity_min": 0.65*/}
+                              {/*}*/}
+                          {/*}*/}
+                      {/*},*/}
+                      {/*"interactivity": {*/}
+                          {/*"events": {*/}
+                              {/*"onclick": {*/}
+                                  {/*"enable": true,*/}
+                                  {/*"mode": "push"*/}
+                              {/*}*/}
+                          {/*},*/}
+                          {/*"modes": {*/}
+                              {/*"push": {*/}
+                                  {/*"particles_nb": 1*/}
+                              {/*}*/}
+                          {/*}*/}
+                      {/*},*/}
+                      {/*"retina_detect": true*/}
+                  {/*}} />*/}
+
+              <div className="dp-content">
                 <Contacts />
                 <TabPanel className="dp-home">
                     <FontAwesomeIcon icon={fab} />

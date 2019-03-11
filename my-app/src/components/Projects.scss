@@ -7,8 +7,8 @@
 
 .dp-projects {
   display: flex;
-  flex-wrap: wrap;
   max-width: 1250px;
+  flex-direction: column;
 
   .dp-project-img {
     margin-bottom: 20px;
@@ -24,8 +24,7 @@
   margin-right: 35px;
   margin-bottom: 35px;
   padding: 20px 0;
-  width: 350px;
-  min-height: 200px;
+  //width: 350px;
 
   img {
     max-width: 100%;

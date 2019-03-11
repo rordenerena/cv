@@ -42,8 +42,9 @@ ul, ol {
 }
 
 .dp-particles {
-  height: 98vh;
-  opacity: .3;
+  overflow: hidden;
+  max-width: 100vw;
+  opacity: .5;
   position: absolute;
 }
 
