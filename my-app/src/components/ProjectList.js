@@ -20,7 +20,7 @@ export default class ProjectList extends Component {
                 },
                 {
                     id: '2',
-                    img: 'https://github.com/JlaPrs/JlaPrs-CV/blob/master/my-app/src/images/Hover-Arrow-ONLY-CSS.jpg',
+                    img: 'http://placekitten.com/300/140',
                     title:'Hover effekt on arrow button',
                     link: 'https://codepen.io/jlaprs/pen/bZBWWp',
                     platform: 'codepen',
