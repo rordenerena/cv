@@ -1,35 +1,6 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default class BucketListItem extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            target: '_blank',
-            list: [
-                {
-                    id: '1',
-                    title:'Typing with Glitch Effect',
-                    link: 'https://github.com/JlaPrs/glitch-text-effect',
-                    platform: 'github',
-                    text: {
-                        title: 'Glitch Effect',
-                        shortDescription: 'Typing with a fancy Glitch Effect'
-                    }
-                },
-                {
-                    id: '2',
-                    title:'Hover effekt on arrow button',
-                    link: 'https://codepen.io/jlaprs/pen/bZBWWp',
-                    platform: 'codepen',
-                    text: {
-                        title: 'Hover effect',
-                        shortDescription: 'SCSS hover on Arrow Button / ONLY CSS'
-                    }
-                }
-            ]
-        };
-    }
 
     render() {
 
