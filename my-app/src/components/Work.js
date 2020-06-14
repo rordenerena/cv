@@ -63,7 +63,7 @@ export default class Work extends Component {
                         {/*Samir Schwenker Design & IT*/}
                         <WorkItem
                             duration="2009 - 2013"
-                            companyName="Zennio"
+                            companyName="Zennio-dev"
                             jobTitle="Programador y tester"
                         >
                             - Programador J2SE y web en aplicaciones corporativas<br/>
@@ -72,7 +72,7 @@ export default class Work extends Component {
                         
                         <WorkItem
                             duration="2013 - 2019"
-                            companyName="Zennio"
+                            companyName="Zennio-resp"
                             jobTitle="Coordinador de equipo de desarrollo"
                         >
                             - Coordinador de todo el equipo de desarrollo de alto nivel<br/>
@@ -81,7 +81,7 @@ export default class Work extends Component {
                         
                         <WorkItem
                             duration="2019 - *"
-                            companyName="Zennio"
+                            companyName="Zennio-mgr"
                             jobTitle="Coordinador de equipo de desarrollo y pruebas"
                         >
                             - Coordinador de todo el equipo de alto nivel (dev & test)<br/>
