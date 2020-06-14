@@ -101,6 +101,9 @@ export default class Education extends Component {
                                 <span className="c-y">const </span><span className="c-b">organizacion</span> = [<span className="c-g">“Trello”</span>, <span className="c-g">“Wekan”</span>, <span className="c-g">“OneNote”</span>, <span className="c-g">“Google Keep”</span>];<br />
 
                                 <span className="c-y">const </span><span className="c-b">herramientas</span> = [<span className="c-g">“PlantUML”</span>, <span className="c-g">“Mermaid.js”</span>, <span className="c-g">“Markdown”</span>, <span className="c-g">“Pandoc”</span>];<br />
+                                
+                                
+                                <span className="c-y">const </span><span className="c-b">ingles</span> = [<span className="c-g">“Leído - Alto”</span>, <span className="c-g">“Escrito - Medio”</span>, <span className="c-g">“Hablado - Bajo”</span>];<br />
 
                                 <br />
                             </code>
