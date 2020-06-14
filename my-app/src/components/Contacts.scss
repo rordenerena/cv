@@ -1,9 +1,10 @@
 .dp-contacts {
   display: flex;
+  background-color: #232425;
 }
 
 .dp-contact {
-  position: absolute;
+  position: fixed;
   bottom: 25px;
   //right: 0;
   //animation: fadein 9s ease 0s normal forwards;

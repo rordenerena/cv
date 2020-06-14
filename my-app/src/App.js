@@ -18,7 +18,7 @@ library.add(fab);
 
 class App extends Component {
     componentDidMount(){
-        document.title = "CV - Julia Primus"
+        document.title = "Roberto Orden Erena - CV"
     }
 
   render() {
@@ -37,12 +37,12 @@ class App extends Component {
               <Tab className="icon dp-icon-navigation-list-item">
                 <FontAwesomeIcon icon={faKeyboard} />
               </Tab>
-              <Tab className="icon dp-icon-navigation-list-item">
+              {/* <Tab className="icon dp-icon-navigation-list-item">
                 <FontAwesomeIcon icon={faList} />
               </Tab>
               <Tab className="icon dp-icon-navigation-list-item">
                 <FontAwesomeIcon icon={faTasks} />
-              </Tab>
+              </Tab> */}
                 {/*<div className="dp-nerd-infos">
                     Nerd Infos
                 </div>*/}
@@ -104,17 +104,17 @@ class App extends Component {
 
                 <TabPanel>
                     <Education
-                        schoolSkills="Education"
-                        technicalSkills="Technical Skills"
+                        schoolSkills="Educación"
+                        technicalSkills="Conocimientos técnicos"
                     />
                 </TabPanel>
 
                 <TabPanel>
-                    <Work title="work experience" />
+                    <Work title="Experiencia laboral" />
                 </TabPanel>
 
                 <TabPanel>
-                    <Projects title="Projekte" />
+                    <Projects title="Proyectos" />
                 </TabPanel>
 
                 <TabPanel>

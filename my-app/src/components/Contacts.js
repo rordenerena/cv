@@ -14,18 +14,18 @@ export default class Home extends Component {
             <div className="dp-contact">
                 <ul className="dp-contacts">
                     <li>
-                        <a href="https://github.com/JlaPrs" target={this.state.target}>
+                        <a href="https://github.com/rordenerena" target={this.state.target}>
                             <FontAwesomeIcon icon={['fab', 'github']} />
                         </a>
                     </li>
                     <li>
-                        <a href="https://codepen.io/jlaprs/" target={this.state.target}>
-                            <FontAwesomeIcon icon={['fab', 'codepen']} />
+                        <a href="https://twitter.com/dakotadelnorte/" target={this.state.target}>
+                            <FontAwesomeIcon icon={['fab', 'twitter']} />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.xing.com/profile/Julia_Primus" target={this.state.target}>
-                            <FontAwesomeIcon icon={['fab', 'xing']} />
+                        <a href="https://www.linkedin.com/in/roberto-orden-erena-5237ab37" target={this.state.target}>
+                            <FontAwesomeIcon icon={['fab', 'linkedin']} />
                         </a>
                     </li>
                 </ul>

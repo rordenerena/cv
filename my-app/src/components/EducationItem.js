@@ -7,7 +7,7 @@ export default class EducationItem extends Component {
             duration: '',
             school: '',
             schoolName: '',
-            graduation: 'Abschluss',
+            graduation: 'Estudios',
             jobTitle: '',
             note: ''
         };
@@ -28,14 +28,14 @@ export default class EducationItem extends Component {
                 </p>
 
                 <p className="line-2">
-                    <span className="c-p">Abschluss</span>
+                    <span className="c-p">Estudios</span>
                     <span>:</span>
                     <span className="c-g"> {this.props.graduation}</span>
                     <span>;</span>
                 </p>
 
                 <p className="line-3">
-                    <span className="c-o">&.note</span>
+                    <span className="c-o">Nota</span>
                     <span>:</span>
                     <span className="c-g"> {this.props.note}</span>
                     <span>;</span>

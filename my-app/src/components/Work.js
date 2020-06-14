@@ -27,68 +27,112 @@ export default class Work extends Component {
                 <div className="dp-work-experience">
                     <div className="dp-work-experience-list">
                         {/*YOU?*/}
-                        <div className="code code-js">
+                        {/* <div className="code code-js">
                             <div className="code-content">
                                 <code>
                                     <span className="c-y">const </span>
-                                    <span className="c-b">you? </span>
+                                    <span className="c-b">interesado? </span>
                                     = [ <br/>
-                                    <span className="c-c dp-code-spacer">//contact me</span> <br/>
+                                    <span className="c-c dp-code-spacer"><a href="mailto:rordenerena@gmail.com">//contacta conmigo</a></span> <br/>
                                     ];
                                 </code>
                             </div>
-                        </div>
+                        </div> */}
 
-                        {/*Arvato Systems*/}
+
                         <WorkItem
-                            duration="Jan 2017 - heute"
-                            companyName="Arvato Bertelsman"
-                            jobTitle="Advanced Frontend developer"
+                            duration="2005"
+                            companyName="Movatec"
+                            jobTitle="Técnico de Sistemas"
                         >
-                            Umsetzung mit JavaScript, ReAct, SCSS,
-                            CMS CoreMedia Templating
-                            Umsetzung eines Living Styleguides (Patternlab.io)
-                            Enge Absprachen zwischen Backend & Designern
-                            Nutzung von Jira, Confluence, Scrum, Kanban
+                            - Prácticas del ciclo formativo <br/> 
+                            - Reparación de ordenadores y redes
                         </WorkItem>
 
                         {/*C|CON*/}
                         <WorkItem
-                            duration="Jan 2014 - Dez 2017"
-                            companyName="C|CON GmbH"
-                            jobTitle="Webdesignerin / Frontend developer"
+                            duration="2005 - 2006"
+                            companyName="Emucor"
+                            jobTitle="Desarrollador C#"
                         >
-                            Frontend Entwicklung eines Onlinesshops (Shopware),<br />
-                            Verantwortlich für die Auzubildenden,<br />
-                            Professionelle Bildbearbeitung für Produktpräsentationen,<br />
-                            Betreuung & Kontrolle der Produktionsprozesse
+                            - Colaboración en proyectos de empresa<br/>
+                            - Desarrollo de un software de gestión para residencias de estudiantes
+                        </WorkItem>
+
+                        {/*C|CON Ausbildung*/}
+                        <WorkItem
+                            duration="2006 - 2007"
+                            companyName="SinfoRED"
+                            jobTitle="Técnico de asistencia y reparaciones"
+                        >
+                            - Mantenimiento e informe de incidencias en los sistemas informáticos
+                            de sanidad pública de la Junta de Andalucía<br/>
+                            - Reparación de equipos informáticos<br/>
+                            - Formador de las aplicaciones de gestión de personal sanitario
                         </WorkItem>
                     </div>
 
 
                     <div className="dp-work-experience-list second-column">
-                        {/*C|CON Ausbildung*/}
-                        <WorkItem
-                            duration="Aug 2011 - Dez 2013"
-                            companyName="C|CON GmbH"
-                            jobTitle="Ausbildung zur Mediengestalterin für Digital- & Printmedien"
-                        >
-                            Design & Realisierung von Digital- & Printmedien,<br />
-                            Vertretung der Abteilungsleitung im Produktionsbereich,<br />
-                            Herstellung von Wandtattoos
-                        </WorkItem>
+                        
 
                         {/*Samir Schwenker Design & IT*/}
                         <WorkItem
-                            duration="Mai 2009 - Jul 2014"
-                            companyName="Samir Schwenker Design & IT"
-                            jobTitle="Praktikantin & Aushilfe als Mediengestalteri"
+                            duration="Mayo - Julio 2009"
+                            companyName="Zennio"
+                            jobTitle="Programador y tester"
                         >
-                            Kundenbetreuung, Bildbearbeitung,<br />
-                            Entwicklung von Webseiten mit HTML, CSS und JavaScript,<br />
-                            Erstellung von diversen Printmedien (Logos, Visitenkarten, Broschüren, Flyer)
+                            - Programador J2SE en aplicaciones corporativas<br/>
+                            - Tester de productos de domótica basado en el estándar KNX
                         </WorkItem>
+                        
+                        <WorkItem
+                            duration="2009 - 2013"
+                            companyName="Zennio"
+                            jobTitle="Programador"
+                        >
+                            - Programador de aplicaciones web corporativas
+                        </WorkItem>
+                        
+                        <WorkItem
+                            duration="2013 - 2019"
+                            companyName="Zennio"
+                            jobTitle="Coordinador de equipo de desarrollo"
+                        >
+                            - Coordinador de todo el equipo de desarrollo de alto nivel<br/>
+                            - Analista/Programador de aplicaciones web corporativas
+                        </WorkItem>
+                        
+                        <WorkItem
+                            duration="2019 - *"
+                            companyName="Zennio"
+                            jobTitle="Coordinador de equipo de desarrollo y pruebas"
+                        >
+                            - Coordinador de todo el equipo de alto nivel (dev & test)<br/>
+                            - Consultor/Analista/Programador de aplicaciones web corporativas
+                        </WorkItem>
+
+                        {/* <WorkItem
+                            duration="2020 - *"
+                            companyName="FOSS"
+                            jobTitle="Colaborador en KDE"
+                        >
+                            - Probando aplicaciones<br/>
+                            - Reportando issues 
+                        </WorkItem> */}
+
                     </div>
+
+                     <div className="dp-work-experience-list">
+                    <WorkItem
+                            duration="2020 - *"
+                            companyName="FOSS"
+                            jobTitle="Colaborador en KDE"
+                        >
+                            - Probando aplicaciones<br/>
+                            - Reportando issues 
+                        </WorkItem>
+                    </div> 
 
                 </div>
             </div>

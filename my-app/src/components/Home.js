@@ -17,16 +17,17 @@ export default class Home extends Component {
                     cursorClassName="dp-cursor"
                     className="dp-introduction"
                 >
-                    <h3>Name: <strong>Julia Primus</strong>, <br/>
-                        Alter: <strong>30</strong> Jahre alt,
+                    <h3>Nombre: <strong>Roberto Orden Erena</strong>, <br/>
+                        Edad: <strong>35</strong> años,
                         <Typing.Delay ms={750} />
-                        <Typing.Backspace count={4}/>
-                        jung,
-                    </h3>
+                        <Typing.Backspace count={5}/>
+                        añitos,
+                    </h3><br/>
                     <Typing.Delay ms={750} />
-                    <h1>Frontend Entwicklerin</h1>
+                    <h1>People Manager<br/>Full Stack Developer<br/>Mobile Developer<br/>SysAdmin</h1>
                     <Typing.Delay ms={750} />
-                    <p>aus <strong>Bielefeld / NRW</strong></p>
+                    <p>de <strong>Córdoba / Andalucía</strong></p><br/>
+                    <p>asentado en <strong>Toledo</strong></p>
                 </Typing>
 
             </div>
