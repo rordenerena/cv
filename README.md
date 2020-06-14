@@ -1,12 +1,12 @@
-# JlaPrs-CV
-I'm Julia, a frontend web developer based in Bielefeld [Germany]. Check out my CV
+# rordenerena cv
+Soy Roberto, apasionado del mundo del software y software libre. Revisa mi CV
 
-[Check my CV](http://juliaprimus.de/my-app/)
+[Revisa mi CV](https://rordenerena.github.io/cv/)
 
 
-![alt Jla_Prs_Page][img]
+![alt rordenerena][img]
 
-[img]: https://github.com/JlaPrs/JlaPrs-CV/blob/master/my-app/src/images/Jla_Prs_Page.jpg "How my Homepage looks like"
+[img]: https://github.com/rordenerena/cv/blob/master/my-app/src/images/rordenerena-cv.jpg "Ejemplo"
 
 
 still under construction

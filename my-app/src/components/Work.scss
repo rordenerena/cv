@@ -1,6 +1,7 @@
 @import '../style/variables';
 
 .dp-work {
+  font-size: 0.8em;
   .dp-cursor {
     color: $purple;
   }
@@ -20,4 +21,8 @@
       margin-top: 76px;
     }
   }
+}
+
+.dp-work-experience-item {
+  
 }

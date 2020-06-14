@@ -107,7 +107,7 @@ export default class Education extends Component {
                         </div>
                     </div>
                 </div>
-
+                <div class="bottom-pad"></div>
             </div>
         );
     }

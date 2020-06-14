@@ -26,26 +26,11 @@ export default class Work extends Component {
 
                 <div className="dp-work-experience">
                     <div className="dp-work-experience-list">
-                        {/*YOU?*/}
-                        {/* <div className="code code-js">
-                            <div className="code-content">
-                                <code>
-                                    <span className="c-y">const </span>
-                                    <span className="c-b">interesado? </span>
-                                    = [ <br/>
-                                    <span className="c-c dp-code-spacer"><a href="mailto:rordenerena@gmail.com">//contacta conmigo</a></span> <br/>
-                                    ];
-                                </code>
-                            </div>
-                        </div> */}
-
-
                         <WorkItem
                             duration="2005"
                             companyName="Movatec"
-                            jobTitle="Técnico de Sistemas"
+                            jobTitle="Técnico de Sistemas (Prácticas)"
                         >
-                            - Prácticas del ciclo formativo <br/> 
                             - Reparación de ordenadores y redes
                         </WorkItem>
 
@@ -65,8 +50,7 @@ export default class Work extends Component {
                             companyName="SinfoRED"
                             jobTitle="Técnico de asistencia y reparaciones"
                         >
-                            - Mantenimiento e informe de incidencias en los sistemas informáticos
-                            de sanidad pública de la Junta de Andalucía<br/>
+                            - Mantenimiento del servicio de sanidad pública en Andalucía<br/>
                             - Reparación de equipos informáticos<br/>
                             - Formador de las aplicaciones de gestión de personal sanitario
                         </WorkItem>
@@ -78,20 +62,12 @@ export default class Work extends Component {
 
                         {/*Samir Schwenker Design & IT*/}
                         <WorkItem
-                            duration="Mayo - Julio 2009"
+                            duration="2009 - 2013"
                             companyName="Zennio"
                             jobTitle="Programador y tester"
                         >
-                            - Programador J2SE en aplicaciones corporativas<br/>
+                            - Programador J2SE y web en aplicaciones corporativas<br/>
                             - Tester de productos de domótica basado en el estándar KNX
-                        </WorkItem>
-                        
-                        <WorkItem
-                            duration="2009 - 2013"
-                            companyName="Zennio"
-                            jobTitle="Programador"
-                        >
-                            - Programador de aplicaciones web corporativas
                         </WorkItem>
                         
                         <WorkItem
@@ -112,18 +88,18 @@ export default class Work extends Component {
                             - Consultor/Analista/Programador de aplicaciones web corporativas
                         </WorkItem>
 
-                        {/* <WorkItem
+                        <WorkItem
                             duration="2020 - *"
                             companyName="FOSS"
                             jobTitle="Colaborador en KDE"
                         >
                             - Probando aplicaciones<br/>
                             - Reportando issues 
-                        </WorkItem> */}
+                        </WorkItem>
 
                     </div>
 
-                     <div className="dp-work-experience-list">
+                     {/* <div className="dp-work-experience-list">
                     <WorkItem
                             duration="2020 - *"
                             companyName="FOSS"
@@ -132,9 +108,10 @@ export default class Work extends Component {
                             - Probando aplicaciones<br/>
                             - Reportando issues 
                         </WorkItem>
-                    </div> 
+                    </div>  */}
 
                 </div>
+                <br/><br/><br/><br/>
             </div>
         );
     }

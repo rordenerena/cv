@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 
+import './Work.scss'
+
 export default class WorkItem extends Component {
     constructor(props) {
         super(props);
