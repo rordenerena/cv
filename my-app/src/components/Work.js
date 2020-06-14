@@ -54,6 +54,15 @@ export default class Work extends Component {
                             - Reparación de equipos informáticos<br/>
                             - Formador de las aplicaciones de gestión de personal sanitario
                         </WorkItem>
+                        <br/>
+                        <WorkItem
+                            duration="2020 - *"
+                            companyName="FOSS"
+                            jobTitle="Colaborador en KDE"
+                        >
+                            - Probando aplicaciones<br/>
+                            - Reportando issues 
+                        </WorkItem>
                     </div>
 
 
@@ -76,7 +85,7 @@ export default class Work extends Component {
                             jobTitle="Coordinador de equipo de desarrollo"
                         >
                             - Coordinador de todo el equipo de desarrollo de alto nivel<br/>
-                            - Analista/Programador de aplicaciones web corporativas
+                            - Analista/Programador de aplicaciones domóticas y corporativas
                         </WorkItem>
                         
                         <WorkItem
@@ -85,17 +94,10 @@ export default class Work extends Component {
                             jobTitle="Coordinador de equipo de desarrollo y pruebas"
                         >
                             - Coordinador de todo el equipo de alto nivel (dev & test)<br/>
-                            - Consultor/Analista/Programador de aplicaciones web corporativas
+                            - Consultor/Analista/Programador de aplicaciones domóticas y corporativas
                         </WorkItem>
 
-                        <WorkItem
-                            duration="2020 - *"
-                            companyName="FOSS"
-                            jobTitle="Colaborador en KDE"
-                        >
-                            - Probando aplicaciones<br/>
-                            - Reportando issues 
-                        </WorkItem>
+                        
 
                     </div>
 

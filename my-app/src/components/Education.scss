@@ -6,7 +6,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0;
-  font-size: 15px;
+  font-size: 1em;
 
   span {
     color: white;
@@ -32,7 +32,7 @@
   height: auto;
   border-radius: 6px;
   z-index: 5;
-  font-size: 15px;
+  font-size: 1em;
 
   .dp-editor-header {
     display: grid;
@@ -41,13 +41,13 @@
 
     svg {
       margin: 10px;
-      font-size: 15px;
+      font-size: 0.9em;
       color: #C5C8D4;
     }
     h1 {
       font-family: Lato, sans-serif;
       font-weight: 900;
-      font-size: 14px;
+      font-size: 0.8em;
       letter-spacing: 1.57px;
       color: #C5C8D4;
       margin: 0;
@@ -78,7 +78,7 @@
       color: #7A99AD;
       font-weight: normal;
       font-family: "Space Mono", monospace, sans-serif;
-      font-size: 14px;
+      font-size: 0.8em;
       text-decoration: underline;
       display: inline-block;
       margin-bottom: 5px;
@@ -137,6 +137,9 @@
 }
 
 // Animations end
+.dp-school {
+  min-width: 400px;
+}
 
 .dp-section-education {
   display: flex;
@@ -166,6 +169,7 @@
   }
 
   .dp-technical-skills {
+    min-width: 600px;
     &-list {
       animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
       animation-delay: 3s;
@@ -178,6 +182,7 @@
 }
 
 .dp-work-experience-job-description {
+  min-width: 300px;
   max-width: 590px;
 
   &-list {

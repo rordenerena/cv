@@ -19,15 +19,16 @@ export default class Home extends Component {
                 >
                     <h3>Nombre: <strong>Roberto Orden Erena</strong>, <br/>
                         Edad: <strong>35</strong> años,
-                        <Typing.Delay ms={750} />
+                        {/* <Typing.Delay ms={750} />
                         <Typing.Backspace count={5}/>
-                        añitos,
+                        añitos, */}
                     </h3><br/>
                     <Typing.Delay ms={750} />
                     <h1>People Manager<br/>Full Stack Developer<br/>Mobile Developer<br/>SysAdmin</h1>
                     <Typing.Delay ms={750} />
                     <p>de <strong>Córdoba / Andalucía</strong></p><br/>
                     <p>asentado en <strong>Toledo</strong></p>
+                    {/* <img class="profile" src="rorden.png" /> */}
                 </Typing>
 
             </div>

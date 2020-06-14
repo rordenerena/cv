@@ -84,6 +84,9 @@ export default class Education extends Component {
                                 <span className="c-y">const </span><span className="c-b">servicios</span> = [<span className="c-g">“Docker”</span>, <span className="c-g">“AWS”</span>, <span className="c-g">“Firebase GCM”</span>, <span className="c-g">“Gitlab”</span>, <span className="c-g">“Github”</span>, <span className="c-g">“Apple Connect”</span>];<br />
 
                                 <span className="c-y">const </span><span className="c-b">backend</span> = [<span className="c-g">“nodejs</span>, <span className="c-g">“python”</span>, <span className="c-g">“bash”</span>, <span className="c-g">“PHP”</span>, <span className="c-g">“Java”</span>];<br />
+                                
+                                
+                                <span className="c-y">const </span><span className="c-b">bbdd</span> = [<span className="c-g">“MySQL</span>, <span className="c-g">“PostgreSQL”</span>, <span className="c-g">“AWS DynamoDB”</span>, <span className="c-g">“MongoDB (basic) ”</span>];<br />
 
 
                                 <span className="c-y">const </span><span className="c-b">frameworks</span> = [<span className="c-g">“Angular”</span>, <span className="c-g">“bootstrap”</span>, <span className="c-g">“jquery”</span>];<br />
