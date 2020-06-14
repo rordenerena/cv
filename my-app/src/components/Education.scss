@@ -6,7 +6,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0;
-  font-size: 1em;
+  font-size: 15px;
 
   span {
     color: white;
@@ -32,7 +32,7 @@
   height: auto;
   border-radius: 6px;
   z-index: 5;
-  font-size: 1em;
+  font-size: 15px;
 
   .dp-editor-header {
     display: grid;
@@ -41,13 +41,13 @@
 
     svg {
       margin: 10px;
-      font-size: 0.9em;
+      font-size: 15px;
       color: #C5C8D4;
     }
     h1 {
       font-family: Lato, sans-serif;
       font-weight: 900;
-      font-size: 0.8em;
+      font-size: 14px;
       letter-spacing: 1.57px;
       color: #C5C8D4;
       margin: 0;
@@ -78,7 +78,7 @@
       color: #7A99AD;
       font-weight: normal;
       font-family: "Space Mono", monospace, sans-serif;
-      font-size: 0.8em;
+      font-size: 14px;
       text-decoration: underline;
       display: inline-block;
       margin-bottom: 5px;
@@ -138,7 +138,10 @@
 
 // Animations end
 .dp-school {
-  min-width: 400px;
+  min-width: 300px;
+  @media screen and (min-width: $screen-sm-min) {
+    min-width: 400px;
+  }
 }
 
 .dp-section-education {
@@ -169,7 +172,10 @@
   }
 
   .dp-technical-skills {
-    min-width: 600px;
+    min-width: 300px;
+    @media screen and (min-width: $screen-sm-min) {
+      min-width: 600px;
+    }
     &-list {
       animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
       animation-delay: 3s;

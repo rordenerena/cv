@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Typing from 'react-typing-animation';
+import ImageProfile from "./../images/rorden.png";
 
 export default class Home extends Component {
     constructor(props) {
@@ -12,6 +13,7 @@ export default class Home extends Component {
     render() {
         return (
             <div>
+                <img class="profile" src={ImageProfile} alt="profile picture"/>
                 <Typing
                     speed={20}
                     cursorClassName="dp-cursor"
@@ -19,16 +21,12 @@ export default class Home extends Component {
                 >
                     <h3>Nombre: <strong>Roberto Orden Erena</strong>, <br/>
                         Edad: <strong>35</strong> años,
-                        {/* <Typing.Delay ms={750} />
-                        <Typing.Backspace count={5}/>
-                        añitos, */}
                     </h3><br/>
                     <Typing.Delay ms={750} />
                     <h1>People Manager<br/>Full Stack Developer<br/>Mobile Developer<br/>SysAdmin</h1>
                     <Typing.Delay ms={750} />
                     <p>de <strong>Córdoba / Andalucía</strong></p><br/>
                     <p>asentado en <strong>Toledo</strong></p>
-                    {/* <img class="profile" src="rorden.png" /> */}
                 </Typing>
 
             </div>
