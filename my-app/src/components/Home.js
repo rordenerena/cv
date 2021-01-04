@@ -26,7 +26,6 @@ export default class Home extends Component {
                     <h1>People Manager<br/>Full Stack Developer<br/>Mobile Developer<br/>SysAdmin</h1>
                     <Typing.Delay ms={750} />
                     <p>de <strong>Córdoba / Andalucía</strong></p><br/>
-                    <p>asentado en <strong>Toledo</strong></p>
                 </Typing>
 
             </div>
