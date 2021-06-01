@@ -10,7 +10,7 @@ export default class ProjectList extends Component {
                 {
                     id: '1',
                     title:'Typing with Glitch Effect',
-                    link: 'https://github.com/JlaPrs/glitch-text-effect',
+                    link: 'https://github.com/rordenerena',
                     platform: 'github',
                     text: {
                         title: 'Glitch Effect',
@@ -20,7 +20,7 @@ export default class ProjectList extends Component {
                 {
                     id: '2',
                     title:'Hover effekt on arrow button',
-                    link: 'https://codepen.io/jlaprs/pen/bZBWWp',
+                    link: 'https://codepen.io/rordenerena',
                     platform: 'codepen',
                     text: {
                         title: 'Hover effect',
@@ -30,7 +30,7 @@ export default class ProjectList extends Component {
                 {
                     id: '3',
                     title:'React counter Basics',
-                    link: 'https://codepen.io/jlaprs/pen/eXBKrV',
+                    link: 'https://codepen.io/rordenerena',
                     platform: 'codepen',
                     text: {
                         title: 'ReAct Counter',
@@ -40,7 +40,7 @@ export default class ProjectList extends Component {
                 {
                     id: '3',
                     title:'Titel',
-                    link: 'https://github.com/JlaPrs/draggable-ToDo-react-app',
+                    link: 'https://github.com/rordenerena',
                     platform: 'github',
                     text: {
                         title: 'ToDo list',

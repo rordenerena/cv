@@ -20,10 +20,10 @@ export default class Home extends Component {
                     className="dp-introduction"
                 >
                     <h3>Nombre: <strong>Roberto Orden Erena</strong>, <br/>
-                        Edad: <strong>35</strong> años,
+                        Edad: <strong>36</strong> años,
                     </h3><br/>
                     <Typing.Delay ms={750} />
-                    <h1>People Manager<br/>Full Stack Developer<br/>Mobile Developer<br/>SysAdmin</h1>
+                    <h1>Full Stack JS Developer<br/>Mobile Developer<br/>DevOps/SysAdmin Linux</h1>
                     <Typing.Delay ms={750} />
                     <p>de <strong>Córdoba / Andalucía</strong></p><br/>
                 </Typing>

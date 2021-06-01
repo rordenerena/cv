@@ -38,11 +38,11 @@ export default class Motivation extends Component {
                                 <div className="zero photo-about animated fadeIn">
                                     <div className="hide-photo-filter animated fadeIn"></div>
                                     <div className="about-info">
-                                        <h3 className="about-info-name animated fadeInUp up-one">ANUSUYA CODEPEN</h3>
+                                        <h3 className="about-info-name animated fadeInUp up-one">CODE</h3>
                                         <div className="about-info-contact">
-                                            <h4 className="animated fadeInUp up-two"> Front End Developer, Ocassional Seamstress, Dance Lover</h4>
-                                            <p className="animated fadeInUp up-three">4456 New Avenue, New York City, NY</p>
-                                            <a href="" className="animated fadeInUp up-four">jlaprs@myemail.com</a>
+                                            <h4 className="animated fadeInUp up-two">Full Stack JS Developer, Family, Reading, Football</h4>
+                                            <p className="animated fadeInUp up-three">Córdoba, Andalucía</p>
+                                            <a href="" className="animated fadeInUp up-four">rordenerena@gmail.com</a>
                                         </div>
                                     </div>
                                 </div>
